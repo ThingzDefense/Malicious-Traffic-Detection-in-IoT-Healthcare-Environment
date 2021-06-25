@@ -37,7 +37,7 @@ outputFilePath = inputFilePath+'_.csv'
 
 frame_Features = "-e frame.time_delta -e frame.time_relative -e frame.len "
 flow_Features = "-e ip.src -e ip.dst -e tcp.srcport -e tcp.dstport -e ip.proto -e ip.ttl "
-tcp_Features = "-e tcp.flags -e tcp.time_delta -e tcp.len -e tcp.ack -e tcp.connection.fin -e tcp.connection.rst -e tcp.connection.sack -e tcp.connection.syn -e tcp.flags.ack -e tcp.flags.fin -e tcp.flags.push -e tcp.flags.reset -e tcp.flags.syn -e tcp.flags.urg -e tcp.hdr_len -e tcp.payload -e tcp.pdu.size -e tcp.window_size_value -e tcp.checksum "
+tcp_Features = "-e tcp.flags -e tcp.time_delta -e tcp.len -e tcp.ack -e tcp.connection.fin -e tcp.connection.rst -e tcp.connection.synack -e tcp.connection.syn -e tcp.flags.ack -e tcp.flags.fin -e tcp.flags.push -e tcp.flags.reset -e tcp.flags.syn -e tcp.flags.urg -e tcp.hdr_len -e tcp.payload -e tcp.pdu.size -e tcp.window_size_value -e tcp.checksum "
 
 mqtt_Features = "-e  mqtt.clientid -e mqtt.clientid_len -e mqtt.conack.flags -e mqtt.conack.val -e mqtt.conflag.passwd -e mqtt.conflag.qos -e mqtt.conflag.reserved -e mqtt.conflag.retain -e  mqtt.conflag.willflag -e mqtt.conflags -e mqtt.dupflag -e mqtt.hdrflags -e mqtt.kalive -e mqtt.len -e mqtt.msg -e mqtt.msgtype -e mqtt.qos -e mqtt.retain -e mqtt.topic -e mqtt.topic_len -e mqtt.ver -e mqtt.willmsg_len "
 
